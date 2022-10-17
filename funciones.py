@@ -31,7 +31,6 @@ for des in desc:
             des1=des.replace(text,"")
             descripciones+=[des1.replace("\n","")]
 
-
 for i in nom:
     nombres.append(i.text)
 
@@ -50,8 +49,6 @@ for i in range(len(epoca)):
     else:# len(epoca[i][0])==1:
         epoca[i]+=" "
         epoca[i]=tuple(epoca[i])
-
-#print(epoca)
 
 for i in range(len(epoca)):
     llave=""
