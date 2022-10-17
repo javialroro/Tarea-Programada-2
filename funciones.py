@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup as BS
 import requests
-import pandas as pd
+
 
 url = "https://atlasdeastronomia.com/astronomos/"
 page= requests.get(url)
